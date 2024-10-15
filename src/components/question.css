@@ -1,0 +1,9 @@
+.option {
+    transition: transform 0.3s ease, background-color 0.3s;
+    position: relative; /* Required for the sliding effect */
+}
+
+.option:hover {
+    transform: translateX(10px); /* Slide 10 pixels to the right */
+    background-color: #4a5568; /* Change to a darker gray on hover */
+}
